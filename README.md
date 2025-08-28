@@ -41,6 +41,3 @@ Cette application mobile permet aux employés d'une entreprise de gérer leurs d
 - Connexion à la base de données RH
 
 
-
-```bash
-git clone https://github.com/sirinebh1/nom-du-repo.git
