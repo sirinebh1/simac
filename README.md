@@ -1,16 +1,46 @@
-# pfe
+# Application Mobile de Gestion des Demandes RH
 
-A new Flutter project.
+Cette application mobile permet aux employés d'une entreprise de gérer leurs demandes de Ressources Humaines (RH) de manière numérique et centralisée. Les utilisateurs peuvent soumettre des demandes telles que des congés, autorisations, ou inscriptions à des formations, tout en accédant à leurs documents RH via une interface moderne et intuitive.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##Objectifs
 
-A few resources to get you started if this is your first Flutter project:
+- Digitaliser et simplifier le processus de gestion RH pour les employés
+- Offrir une interface mobile conviviale et rapide
+- Intégrer la solution au Système d'Information RH (SIRH) existant
+- Automatiser les flux de validation pour les responsables RH
+- Générer un cahier de recette pour la validation métier
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Fonctionnalités Principales
+
+-  **Authentification sécurisée** (via comptes RH existants)
+-  **Soumission de demandes RH** :
+  - Congés
+  - Autorisations
+  - Formations
+-  **Consultation de documents personnels** (fiches de paie, contrats, etc.)
+-  **Notifications** : Suivi de l’état des demandes
+-  **Historique** : Voir les demandes passées
+-  **Interface avec le SIRH** pour synchroniser les données RH
+
+---
+
+##  Technologies Utilisées
+
+### Frontend – **Flutter**
+- Langage : Dart
+- UI/UX responsive pour Android et iOS
+- Communication avec l’API via `http` 
+
+### Backend – **Spring Boot**
+- Langage : Java
+- API RESTful sécurisée (JWT / OAuth2)
+- Connexion à la base de données RH
+
+
+
+```bash
+git clone https://github.com/sirinebh1/nom-du-repo.git
